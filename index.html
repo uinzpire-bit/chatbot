@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>ภิญญ์พีรยา อัศวธนาเกษม</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  
+  <div class="chat-container">
+    <div class="chat-header">
+      <img src="https://drive.google.com/thumbnail?id=1bQmQ26RgFhTobPGGukhBkHc2UBzvGCtv" alt="นายช่างใจดี Logo" class="header-logo">
+      <div class="header-info">
+        <h3>นายช่างใจดี</h3>
+        <span class="status">ผู้เชี่ยวชาญด้านดารแก้ปัญหาเชิงวิศวกรรม</span>
+      </div>
+    </div>
+
+    <div id="chatMessages" class="chat-messages">
+       <div class="message-wrapper bot">
+          <img src="https://drive.google.com/thumbnail?id=1bQmQ26RgFhTobPGGukhBkHc2UBzvGCtv" class="bot-avatar">
+          <div class="message-bubble">สวัสดีครับ! ผมนายช่างใจดี มีเรื่องอะไรให้ผมช่วยครับ?</div>
+       </div>
+    </div>
+
+    <div class="chat-input-area">
+      <div class="input-wrapper">
+        <textarea id="userInput" placeholder="พิมพ์ข้อความที่นี่..."></textarea>
+        <button id="sendBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="send-icon">
+            <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
